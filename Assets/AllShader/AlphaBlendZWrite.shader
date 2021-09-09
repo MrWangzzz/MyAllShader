@@ -83,6 +83,6 @@ Shader "MerLinCreat/AlphaBlendZWrite"
             return fixed4(diffuse + ambient, col.a * _AlphaScale);
         }
         ENDCG
-    }
+        }
         }
 }
